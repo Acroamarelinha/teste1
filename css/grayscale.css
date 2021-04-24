@@ -114,6 +114,10 @@
   font-size: 1rem;
 }
 
+.adaptable-title {
+  font-size: min(40px, 5vw);
+}
+
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
